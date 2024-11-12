@@ -7,7 +7,7 @@
 ### Beginner: CLI tools
 
 #### 1. [Установка и настройка среды ROS 2](https://github.com/KateParf/ROSTutorials/blob/main/1.md)
-Устанавливаем ROS2 и настраиваем среду ROS2 на нашем компьютере.
+Устанавливаем ROS 2 и настраиваем среду ROS 2 на нашем компьютере.
 
 #### 2. [Using turtlesim, ros2, and rqt](https://github.com/KateParf/ROSTutorials/blob/main/2.md)
 **Цель**: установить и использовать пакет turtlesim и инструменты rqt для подготовки к предстоящим урокам.
