@@ -2,59 +2,70 @@
 
 ### :woman_technologist: Команда 1 : Диш С., Парфенова Е., Шкуркина М.
 
-Прохождение стандартного туториалов для ROS1 (Noetic) https://wiki.ros.org/ROS/Tutorials#Core_ROS_Tutorials
+Прохождение стандартных туториалов для ROS 2 https://docs.ros.org/en/jazzy/Tutorials.html
 
-## Основные руководства по ROS (Core ROS Tutorials)
-### Начальный уровень
+### Beginner: CLI tools
 
-#### 1. [Установка и настройка среды ROS](https://github.com/KateParf/ROSTutorials/blob/main/1.md)
-Устанавливаем ROS и настраиваем среду ROS на нашем компьютере.
+#### 1. [Установка и настройка среды ROS 2](https://github.com/KateParf/ROSTutorials/blob/main/1.md)
+Устанавливаем ROS2 и настраиваем среду ROS2 на нашем компьютере.
 
-#### 2. [Навигация по файловой системе ROS](https://github.com/KateParf/ROSTutorials/blob/main/2.md)
-Рассматриваем концепции файловой системы ROS и использование инструментов командной строки roscd, rosls и rospack.
+#### 2. [Using turtlesim, ros2, and rqt](https://github.com/KateParf/ROSTutorials/blob/main/2.md)
+**Цель**: установить и использовать пакет turtlesim и инструменты rqt для подготовки к предстоящим урокам.
 
-#### 3. [Создание пакета ROS](https://github.com/KateParf/ROSTutorials/blob/main/3.md)
-Рассматриваем использование roscreate-pkg или catkin для создания нового пакета, а также rospack для составления списка зависимостей пакета.
+#### 3. [Understanding nodes](https://github.com/KateParf/ROSTutorials/blob/main/3.md)
+**Цель**: узнать о функциях узлов в ROS 2 и инструментах для взаимодействия с ними.
 
-#### 4. [Создание пакета ROS](https://github.com/KateParf/ROSTutorials/blob/main/4.md)
-Рассматриваем набор инструментов для создания пакета.
+#### 4. [Understanding topics](https://github.com/KateParf/ROSTutorials/blob/main/4.md)
+**Цель**: использовать rqt_graph и инструменты командной строки для внутреннего анализа тем ROS 2.
 
-#### 5. [Понимание узлов ROS](https://github.com/KateParf/ROSTutorials/blob/main/5.md)
-Изусаем концепции графа ROS и использование инструментов командной строки roscore, rosnode и rosrun.
+#### 5. [Understanding services](https://github.com/KateParf/ROSTutorials/blob/main/5.md)
+**Цель**: изучить службы в ROS 2 с помощью инструментов командной строки.
 
-#### 6. [Понимание ROS Topics](https://github.com/KateParf/ROSTutorials/blob/main/6.md)
-Рассматриваем ROS Topics, а также использование инструментов командной строки rostopic и rqt_plot.
+#### 6. [Understanding parameters](https://github.com/KateParf/ROSTutorials/blob/main/6.md)
+**Цель**: узнать, как получать, устанавливать, сохранять и перезагружать параметры в ROS 2.
 
-#### 7. [Понимание служб и параметров ROS](https://github.com/KateParf/ROSTutorials/blob/main/7.md)
-Рассматриваем службы и параметры ROS, а также использование инструментов командной строки rosservice и rosparam.
+#### 7. [Understanding actions](https://github.com/KateParf/ROSTutorials/blob/main/7.md)
+**Цель**: самоанализ действий в ROS 2.
 
-#### 8. [Использование rqt_console и roslaunch](https://github.com/KateParf/ROSTutorials/blob/main/8.md)
-Используем rqt_console и rqt_logger_level для отладки и roslaunch для запуска многих узлов одновременно.
+#### 8. [Using rqt_console to view logs](https://github.com/KateParf/ROSTutorials/blob/main/8.md)
+**Цель**: познакомиться с rqt_console инструментом для анализа сообщений журнала.
 
-#### 9. [Использование rosed для редактирования файлов в ROS](https://github.com/KateParf/ROSTutorials/blob/main/9.md)
-Как использовать rosed для упрощения редактирования.
+#### 9. [Launching nodes](https://github.com/KateParf/ROSTutorials/blob/main/9.md)
+**Цель**: использовать инструмент командной строки для одновременного запуска нескольких узлов.
 
-#### 10. [Создание ROS msg и srv](https://github.com/KateParf/ROSTutorials/blob/main/10.md)
-Рассматриваем создание и компоновку файлов msg и srv, а также инструменты командной строки rosmsg , rossrv и roscp.
+#### 10. [Recording and playing back data](https://github.com/KateParf/ROSTutorials/blob/main/10.md)
+**Цель**: запись данных, опубликованных по топикам и сервисам, чтобы вы могли воспроизвести и изучить их в любое время.
 
-#### 11. [Написание простого издателя и подписчика (C++)](https://github.com/KateParf/ROSTutorials/blob/main/11.md)
-Пишем узел издателя и подписчика на языке C++.
+---
 
-#### 12. [Изучение простого издателя и подписчика](https://github.com/KateParf/ROSTutorials/blob/main/12.md)
-Запуск простого издателя и подписчика.
+### Beginner: Client libraries
 
-#### 13. [Написание простого сервиса и клиента (C++)](https://github.com/KateParf/ROSTutorials/blob/main/13.md)
-Пишем узел службы и клиента на языке C++.
+#### 11. [Using colcon to build packages](https://github.com/KateParf/ROSTutorials/blob/main/11.md)
+**Цель**: создать рабочее пространство ROS 2 с помощью colcon.
 
-#### 14. [Изучение простого сервиса и клиента](https://github.com/KateParf/ROSTutorials/blob/main/14.md)
-Запуск простой службы и клиента.
+#### 12. [Creating a workspace](https://github.com/KateParf/ROSTutorials/blob/main/12.md)
+**Цель**: создать рабочее пространство и научиться настраивать оверлей для разработки и тестирования.
 
-#### 15. [Запись и воспроизведение данных](https://github.com/KateParf/ROSTutorials/blob/main/15.md)
-Запись данных из работающей системы ROS в файл .bag, а затем воспроизведение данных для создания аналогичного поведения в работающей системе.
+#### 13. [Creating a package](https://github.com/KateParf/ROSTutorials/blob/main/13.md)
+**Цель**: создать новый пакет с помощью CMake и запустить его исполняемый файл.
 
-#### 16. [Чтение сообщений из папки-файла](https://github.com/KateParf/ROSTutorials/blob/main/16.md)
-Изучение способов чтения сообщений из нужных тем в bag-файле, в том числе с помощью скрипта ros_readbagfile.
+#### 14. [Writing a simple publisher and subscriber (C++)](https://github.com/KateParf/ROSTutorials/blob/main/14.md)
+**Цель**: создать и запустить узел publisher и subscriber с использованием C++.
 
-#### 17. [Начало работы с roswtf](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
-Базовое изучение инструмента roswtf.
+#### 15. [Writing a simple service and client (C++)](https://github.com/KateParf/ROSTutorials/blob/main/15.md)
+**Цель**: создать и запустить сервисные и клиентские узлы с использованием C++
 
+#### 16. [Creating custom msg and srv files](https://github.com/KateParf/ROSTutorials/blob/main/16.md)
+**Цель**: определить пользовательские файлы интерфейса ( .msgи .srv) и использовать их с узлами C++.
+
+#### 17. [Implementing custom interfaces](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
+**Цель**: узнать больше о способах реализации пользовательских интерфейсов в ROS 2.
+
+#### 18. [Using parameters in a class (C++)](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
+**Цель**: создать и запустить класс с параметрами ROS с использованием C++.
+
+#### 19. [Using ros2doctor to identify issues](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
+**Цель**: выявить проблемы в настройке ROS 2 с помощью ros2doctorинструмента.
+
+#### 20. [Creating and using plugins (C++)](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
+**Цель**: научиться создавать и загружать простой плагин с помощью pluginlib.
