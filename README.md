@@ -49,22 +49,22 @@
 #### 13. [Creating a package](https://github.com/KateParf/ROSTutorials/blob/main/13.md)
 **Цель**: создать новый пакет с помощью CMake и запустить его исполняемый файл.
 
-#### 14. [Writing a simple publisher and subscriber (Python)](https://github.com/KateParf/ROSTutorials/blob/main/14.md)
-**Цель**: создать и запустить узел publisher и subscriber с использованием Python.
+#### 14. [Writing a simple publisher and subscriber (C++)](https://github.com/KateParf/ROSTutorials/blob/main/14.md)
+**Цель**: создать и запустить узел publisher и subscriber с использованием C++.
 
-#### 15. [Writing a simple service and client (Python)](https://github.com/KateParf/ROSTutorials/blob/main/15.md)
-**Цель**: создать и запустить сервисные и клиентские узлы с использованием Python.
+#### 15. [Writing a simple service and client (C++)](https://github.com/KateParf/ROSTutorials/blob/main/15.md)
+**Цель**: создать и запустить сервисные и клиентские узлы с использованием C++.
 
 #### 16. [Creating custom msg and srv files](https://github.com/KateParf/ROSTutorials/blob/main/16.md)
-**Цель**: определить пользовательские файлы интерфейса ( .msgи .srv) и использовать их с узлами Python.
+**Цель**: определить пользовательские файлы интерфейса ( .msgи .srv) и использовать их с узлами C++.
 
 #### 17. [Implementing custom interfaces](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
 **Цель**: узнать больше о способах реализации пользовательских интерфейсов в ROS 2.
 
-#### 18. [Using parameters in a class (Python)](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
-**Цель**: создать и запустить класс с параметрами ROS с использованием Python.
+#### 18. [Using parameters in a class (C++)](https://github.com/KateParf/ROSTutorials/blob/main/18.md)
+**Цель**: создать и запустить класс с параметрами ROS с использованием C++.
 
-#### 19. [Using ros2doctor to identify issues](https://github.com/KateParf/ROSTutorials/blob/main/17.md)
+#### 19. [Using ros2doctor to identify issues](https://github.com/KateParf/ROSTutorials/blob/main/19.md)
 **Цель**: выявить проблемы в настройке ROS 2 с помощью ros2doctor инструмента.
 
 
